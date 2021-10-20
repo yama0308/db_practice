@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: admin
       PGDATA: /data/postgres
     volumes:
-      - ./postgres/init:/docker-entrypoint-initdb.d
+      - ./postgre/init:/docker-entrypoint-initdb.d
     ports:
       - "5432:5432"
     networks:
