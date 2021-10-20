@@ -6,8 +6,14 @@ Dockerで構築したデータベース学習環境のファイルを管理す�
 
 ### 1. このリポジトリをクローン
 
+`https`
 ```
 git clone https://github.com/yama0308/db_practice.git
+```
+
+`SSH`
+```
+git clone git@github.com:yama0308/db_practice.git
 ```
 
 ### 2. /db_practice/dockerディレクトに移動
