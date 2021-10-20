@@ -1,9 +1,10 @@
 /* DATABASEを作成 */
 CREATE DATABASE pgtest;
 
+/* DATABASEを切り替え */
 \c pgtest;
 
-CREATE TABLE mybook (
+CREATE TABLE test (
   id integer, 
   name varchar(10)
 );
