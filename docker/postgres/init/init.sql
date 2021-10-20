@@ -9,17 +9,17 @@ CREATE TABLE test (
   name varchar(10)
 );
 
-INSERT INTO mybook VALUES (
+INSERT INTO test VALUES (
     1,
     'aaaa'
 );
 
-INSERT INTO mybook VALUES (
+INSERT INTO test VALUES (
     2,
     'bbbb'
 );
 
-INSERT INTO mybook VALUES (
+INSERT INTO test VALUES (
     3,
     'cccc'
 );
